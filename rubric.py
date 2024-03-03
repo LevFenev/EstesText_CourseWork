@@ -11,9 +11,9 @@ def split(a, n):
 
 patterns = "[A-Za-z0-9!#$%&'()*+,./:;<=>?@[\]^_`{|}~—\"\-]+"
 
-w2v_model = Word2Vec.load("resources/model_semen.model")
+w2v_model = Word2Vec.load("resources/model_fenev.model")
 
-dir_path = 'files/semen'
+dir_path = 'files/fenev'
 files = os.listdir(dir_path)
 means = {}
 

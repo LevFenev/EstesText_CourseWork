@@ -4,7 +4,7 @@ from gensim.models import Word2Vec
 from math import sqrt
 
 db = SqliteInteraction('databases/yaro.db')
-w2v_model = Word2Vec.load("resources/model_name.model")
+w2v_model = Word2Vec.load("resources/model_fenev.model")
 
 while True:
     user_input = input("Введите ваш запрос или exit для выхода ")
